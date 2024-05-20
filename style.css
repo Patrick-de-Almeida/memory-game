@@ -83,3 +83,43 @@ button {
 button:hover {
     background-color: #555555;
 }
+
+@media (max-width: 1600px) {
+    .jogo-memoria {
+        grid-template-columns: repeat(4, 150px);
+    }
+    .cartao {
+        width: 150px;
+        height: 150px;
+    }
+    body {
+        background-size: 8%;
+    }
+}
+
+@media (max-width: 1368px) {
+    .jogo-memoria {
+        grid-template-columns: repeat(4, 120px);
+    }
+    .cartao {
+        width: 120px;
+        height: 120px;
+    }
+    body {
+        background-size: 6%;
+    }
+}
+
+@media (max-width: 768px) {
+    .jogo-memoria {
+        grid-template-columns: repeat(3, 100px);
+    }
+    .cartao {
+        width: 100px;
+        height: 100px;
+    }
+    body {
+        background-size: 15%;
+        padding: 10px;
+    }
+}
