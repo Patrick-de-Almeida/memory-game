@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Memória</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="tela-inicio">
+    <h1>Jogo da Memória do Corinthians</h1>
+    <p>Olá, este jogo é um jogo da memória do Corinthians. Faça o par dos cartões dos jogadores para vencer. Quando você encontrar um par correto, um alerta irá lhe informar. Bom jogo!</p>
+    <button onclick="iniciarJogo()">Iniciar Jogo</button>
+  </div>
+  <section class="jogo-memoria" style="display: none;">
+
+  </section>
+  <div class="tela-vitoria" style="display: none;">
+    <p>Você venceu!</p>
+    <button onclick="reiniciarJogo()">Jogar Novamente</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
